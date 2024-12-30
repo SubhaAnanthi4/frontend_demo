@@ -1,0 +1,245 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  color:rgb(255, 255, 255);
+  
+}
+h3{
+  text-align: center;
+  color:rgb(225, 228, 3);
+  font-family:cursive;
+}
+.conh1{
+  text-align: center;
+  color:rgb(255, 255, 255);
+  
+}
+.conh3{
+  text-align: center;
+  color:rgb(252, 255, 65);
+  font-family:cursive;
+}
+.ab{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  
+}
+.a{
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  margin-left: 220px;
+  margin-right: 220px;
+  padding-bottom: 20px;
+  opacity: 70%;
+  border-radius: 50px;
+}
+.abts{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-family:cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Separates the left and right sections */
+  align-items: center; /* Aligns items vertically */
+  background-color: rgb(255, 242, 103);
+  margin: 0 0 20px 0;
+  padding: 10px 20px; /* Adds some padding for better spacing */
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Aligns the logo and name vertically */
+  gap: 10px; /* Adds space between the logo image and name */
+}
+
+.pages {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px; /* Adds spacing between navigation links */
+}
+
+footer {
+  background-color:rgb(255, 242, 103);
+  display: block;
+  text-align: center;
+}
+
+.logoi {
+  height: 40px; /* Keeps the logo at a reasonable size */
+}
+.app-container {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgZSq9rcFVEYYNh29nJ-OikRZ5nGvu2DGiQ&s'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 90vh; 
+  color: white;
+  opacity: 80%; 
+ 
+}
+.explore{
+  display:block;
+  text-align: center;
+  margin-left: 550px;
+  padding: 10px;
+  border-radius: 5px;
+  border:none;
+  background-color:rgb(255, 235, 21); 
+  font-size:larger;
+  margin-bottom: 20px;
+}
+.explore:hover{
+  background-color: rgb(235, 216, 2);
+}
+.types{
+  display:flex;
+  justify-content:space-evenly;
+ background-color: rgb(255, 255, 255);
+ margin:20px;
+ border-radius: 10px;
+ opacity:90%;
+ padding: 30px;
+ 
+}
+.type{
+  width:250px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px grey ;
+  margin:20px;
+}
+.typeu{
+  color: black;
+  text-align: center;
+}
+.home{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ue8j5npvR_ddH5SdlimoPfnQMOP9QKJ9U7tnvpY_F_48BsgI4wcbpzAyvaZJzDXLMWc&usqp=CAU'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 90vh; 
+  color: white;
+  opacity: 80%; 
+}
+
+.menu {
+  max-width: 90%;
+  width: 450px;
+  background-color: rgba(240, 248, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+.menu h1 {
+  margin-left: 0;
+  color: #252525;
+}
+.menu h2 {
+  margin-left: 10px;
+  color: #212121;
+}
+.flavours li::before {
+  content: "*   ";
+  color: black;
+  margin: 20px;
+}
+.abt{
+  background-image: url('https://img.freepik.com/premium-photo/multicolored-ice-cream-balls-waffle-cup-dynamic-composition-generative-ai-art-summer-concept_163597-233.jpg?semt=ais_hybrid'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 120vh; 
+  color: white;
+  
+}
+.conta{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1dmTOCm0QGrwGB7kNSwgyZw9KUGj9XAjag&s'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 150vh; 
+  color: white;
+  
+}
+.main-content {
+  padding: 40px;
+  background-color: rgba(13, 9, 9, 0.85); /* Semi-transparent white background for clarity */
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  color: #c23b22;
+}
+
+.highlight {
+  color: #ffc107;
+  font-weight: bold;
+}
+.contact-info {
+  background-color: rgba(255, 255, 255, 0.169); /* Semi-transparent white background for clarity */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  font-size: 2.5em;
+  color: #c23b22;
+}
+
+.contact-details p {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color:rgb(255, 235, 21);
+  color: rgb(30, 10, 10);
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 300px;
+}
+
+.contact-form button:hover {
+  background-color:rgb(235, 216, 2);
+}
