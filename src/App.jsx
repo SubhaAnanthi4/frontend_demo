@@ -15,7 +15,7 @@ function App() {
       
         <header>
         <nav>
-          <div className='logo'>
+          <div className='logo' >
           <img className="logoi" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632/d4bb068321073.560bb2b94d7e5.jpg"></img>
            <span onClick={handleRefresh}>Ice Scream </span>  
            </div>

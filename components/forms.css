@@ -1,0 +1,112 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: aqua;
+    width:60%;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.name{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:block;
+}
+.email
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+
+    display:block;
+}
+.address
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:block;
+}
+label{
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.but{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:block;
+    background-color: #015eff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 100px;
+    border: none;
+}
+.butto{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;   
+    background-color: #fffb01;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    
+    border: none;
+}
+.butto:hover{
+    background-color: #ebe705;
+}
+.but:hover{
+    background-color: #0c4bb7;
+}
+.tablee{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 250px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:hover {
+    background-color: coral;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  .head{
+    margin: 5px;
+    padding:10px;
+  }
