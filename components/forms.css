@@ -35,7 +35,9 @@ h1 {
     color: #333;
 }
 
-.but, .butto {
+
+
+.butto {
     margin-top: 20px;
     width: 120px;
     height: 35px;
@@ -44,12 +46,12 @@ h1 {
     padding: 8px;
     font-size: 16px;
     cursor: pointer;
-}
-
-.but {
-    background-color: #007bff;
-    color: white;
     margin-right: 20px;
+
+}
+    
+.but {
+    
 }
 
 .butto {
