@@ -46,6 +46,7 @@ h1 {
 .but {
     background-color: #007bff;
     color: white;
+    margin-right: 20px;
 }
 
 .butto {
@@ -69,17 +70,17 @@ h1 {
     border-collapse: collapse;
     border-radius: 10px;
     text-align: center;
-    background-color: #fafafa;
+    background-color: #ff8a8a;
+}
+
+tr:hover {
+    background-color: #f9a1a1;
 }
 
 table, th, td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: center;
-}
-
-tr:hover {
-    background-color: #ffeb3b;
 }
 
 th, td {
@@ -103,7 +104,11 @@ th, td {
 
     .tablee {
         width: 80%;
-        background-color: #f2f2f2;
+        background-color: #ed4df9;
+    }
+
+    tr:hover {
+        background-color: #f898ff;
     }
 
     h1 {
@@ -113,6 +118,7 @@ th, td {
     .but, .butto {
         width: 100px;
         font-size: 14px;
+        margin-right: 10px;
     }
 }
 
@@ -126,7 +132,11 @@ th, td {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        background-color: #dbe7ff;
+        background-color: #71a0ff;
+    }
+
+    tr:hover {
+        background-color: #98baff;
     }
 
     table, th, td {
@@ -141,6 +151,8 @@ th, td {
     .but, .butto {
         width: 100%;
         font-size: 14px;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 
@@ -151,7 +163,11 @@ th, td {
 
     .tablee {
         width: 100%;
-        background-color: #f3e5f5;
+        background-color: #ed77ff;
+    }
+
+    tr:hover {
+        background-color: #f4adff;
     }
 
     th, td {
@@ -167,5 +183,7 @@ th, td {
         width: 100%;
         font-size: 12px;
         padding: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
