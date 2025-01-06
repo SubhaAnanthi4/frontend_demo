@@ -26,7 +26,9 @@ function User()
   return (
     <div>
         <h1>User</h1>
-        
+        <Link to='/create'>
+                         Create User 
+                         </Link>
         <table class="tablee">
             
             <tr >
@@ -44,9 +46,7 @@ function User()
                         <td>{users.email}</td>
                         <td>{users.address}</td>
                         <td>
-                        <Link to='/create'>
-                        <button class="butto"> Create User </button>
-                         </Link>
+                        
                          <Link to={`/update/${users._id}`}> 
                         <button class="butto"> Update User </button>
                         </Link>
