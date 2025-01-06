@@ -1,93 +1,171 @@
-.tablee {
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.name, .email, .address {
+    margin-top: 15px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #b0b0b0;
+    padding: 10px;
+    display: block;
+}
+
+label {
+    margin-top: 15px;
+    font-size: 18px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.but, .butto {
     margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.but {
+    background-color: #007bff;
+    color: white;
+}
+
+.butto {
+    background-color: #ff9800;
+    color: white;
+}
+
+.but:hover {
+    background-color: #0056b3;
+}
+
+.butto:hover {
+    background-color: #e68900;
+}
+
+.tablee {
+    margin-top: 30px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    background-color: #f9f9f9; 
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-h1{
+    border-radius: 10px;
     text-align: center;
+    background-color: #fafafa;
 }
+
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 10px;
-}
-
-
-tr:nth-child(odd) {
-    background-color: #f2f2f2; 
-}
-
-tr:nth-child(even) {
-    background-color: #ffffff; 
-}
-
-tr:hover {
-    background-color: #e6f7ff; 
-}
-
-th {
-    background-color: #4CAF50; 
-    color: white;
+    border: 1px solid #ddd;
     padding: 12px;
     text-align: center;
 }
 
-td {
-    padding: 10px;
-    text-align: center;
+tr:hover {
+    background-color: #ffeb3b;
 }
 
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+.head {
+    margin: 10px;
+    padding: 12px;
+}
 
 @media (max-width: 1024px) {
+    .forms {
+        width: 80%;
+        padding: 25px;
+    }
+
+    .name, .email, .address {
+        width: 80%;
+    }
+
     .tablee {
         width: 80%;
-        background-color: #d1e7ff; 
+        background-color: #f2f2f2;
     }
 
-    tr:nth-child(odd) {
-        background-color: #e1f5fe; 
+    h1 {
+        font-size: 22px;
     }
 
-    tr:nth-child(even) {
-        background-color: #ffffff; 
+    .but, .butto {
+        width: 100px;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 768px) {
-    .tablee {
+    .forms {
         width: 90%;
-        background-color: #ffd1dc; 
+        padding: 15px;
     }
 
-    tr:nth-child(odd) {
-        background-color: #ffe4e6; 
+    .tablee {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #dbe7ff;
     }
 
-    tr:nth-child(even) {
-        background-color: #ffffff; 
+    table, th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .but, .butto {
+        width: 100%;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 480px) {
+    .forms {
+        padding: 10px;
+    }
+
     .tablee {
         width: 100%;
-        background-color: #d1ffd4; 
-        overflow-x: auto;
-        display: block;
+        background-color: #f3e5f5;
     }
 
-    tr:nth-child(odd) {
-        background-color: #e9ffe8; 
+    th, td {
+        padding: 8px;
+        font-size: 12px;
     }
 
-    tr:nth-child(even) {
-        background-color: #ffffff; 
+    h1 {
+        font-size: 18px;
+    }
+
+    .but, .butto {
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
     }
 }
